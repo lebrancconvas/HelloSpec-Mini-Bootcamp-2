@@ -2,16 +2,34 @@ body {
     font-family: 'Roboto';
 }
 
+header {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    margin: 10px;
+}
+
+.cover-img {
+    display: block;
+}
+
 .share>div>a>img {
     width: 3%;
     height: 3%;
 }
 
-.star {
+
+/* .star {
     position: relative;
-    display: block;
+    display: inline;
     float: left;
     height: 1.4rem;
     width: 1.4rem;
     font-size: 1.4rem;
-}
+} */
